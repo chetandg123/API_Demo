@@ -25,4 +25,17 @@
       <testCaseId>Test Cases/post_api</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>fbe5127f-0602-498c-b0c8-b888553fba94</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/first_case</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>326b565d-42f9-4915-ad24-f53b229afd87</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>
