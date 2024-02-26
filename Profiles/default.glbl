@@ -19,4 +19,9 @@
       <initValue>'Tester'</initValue>
       <name>job</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'abc'</initValue>
+      <name>randomUID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

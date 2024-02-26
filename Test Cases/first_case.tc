@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>first_case</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b6ea32ac-e636-432e-a5ab-b103fe8677e7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>326b565d-42f9-4915-ad24-f53b229afd87</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>326b565d-42f9-4915-ad24-f53b229afd87</id>
+      <masked>false</masked>
+      <name>randomUID</name>
+   </variable>
+</TestCaseEntity>
