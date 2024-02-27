@@ -80,16 +80,20 @@ assertThat(response.getStatusCode()).isEqualTo(201)
 
 if(result['name'] == GlobalVariable.username) {
 	println(&quot;UserName is Exist in API Response&quot;)
+	assert true
 }
 else {
 	println(&quot;Error: UserName is Not Exist in API Response&quot;)
+	assert false
 }
 if(result['job'] == GlobalVariable.job)
 {
 	println(&quot;Job is Exist in API Response &quot;)
+	assert true
 }
 else {
 	println(&quot;Error: Job is Not Exist in API Response&quot;)
+	assert false
 }
 
 

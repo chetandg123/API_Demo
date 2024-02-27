@@ -59,12 +59,41 @@ println('API Response is: '+ result['data']['id'])
 
 if(result['data']['id'] == 2)
 {
-    println('User 2 : API Response is fetched Successfully...')	
+    println('User 2 : API Response is fetched Successfully...')
+	assert true	
 }
 else {
 	println('Error!: User 2: API Response is not Fetched ')
+	assert false
+}
+if(result['data']['first_name'] == 'Janet')
+	{
+		println('First Name is Matched ')
+		assert true
+	}
+else {
+		println('Error!: First Name is not matched ')
+		assert false
+}
+if(result['data']['last_name'] == 'Weaver')
+	{
+		println('Last Name is Matched ')
+		assert true
+	}
+else {
+	println('Error!: Last Name is not matched ')
+	assert false
 }
 
+if(result['data']['email'] == 'janet.weaver@reqres.in')
+	{
+		println('Email id is Matched ')
+		assert true
+	}
+else {
+	println('Error!: Email id is not matched ')
+	assert false
+}
 
 
 
