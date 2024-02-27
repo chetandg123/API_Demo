@@ -60,13 +60,8 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
-println(&quot;../API RESPONSE code : &quot;+ response)
 
 def result = sluper.parseText(response.getResponseBodyContent())
-
-println(&quot;../API RESPONSE information: &quot;+ result)
-
-
 
 
 WS.verifyResponseStatusCode(response, 200)
