@@ -38,4 +38,11 @@
          <variableId>326b565d-42f9-4915-ad24-f53b229afd87</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>ae1c123e-438b-40f0-ad2d-3a4883aad6b0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/call_tcs_booking</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
