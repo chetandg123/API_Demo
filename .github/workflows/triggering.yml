@@ -1,0 +1,17 @@
+name: Trigger Repo B
+
+on:
+  push:
+    branches:
+      - main  # or whichever branch you want to trigger the workflow from
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Repo B
+        uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.REPO_B_PAT }}
+          repository: chetandg123/Demo_UI
+          event-type: trigger-from-repo-a
