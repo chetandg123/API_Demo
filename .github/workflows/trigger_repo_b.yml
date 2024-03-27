@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Repo B
-        uses: chetandg123/repo-dispatch-action@v1
+        uses: peter-evans/repository-dispatch@v1
         with:
-          repo-token: ${{ secrets.REPO_B_PAT }} # Use your personal access token here
+          token: ${{ secrets.REPO_B_PAT }} # Use your personal access token here
           repository: chetandg123/Demo_UI
           event-type: trigger-from-repo-a
